@@ -23,3 +23,4 @@ test -f "$llvm_dir/llvm-$llvm_hash"/llvm.tgz || get_llvm
 
 MLIR_DIR="$llvm_dir/lib/cmake/mlir" cmake -S . -G Ninja -B build
 cmake --build build --parallel $(nproc)
+#hi
